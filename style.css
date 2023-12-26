@@ -1,0 +1,265 @@
+li{
+    margin: 10px;
+}
+
+.keys{
+    display : flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: fixed;
+    top : 60px;
+    height: 60px;
+    margin-left : 200px; 
+    background-color: white;
+     
+
+}
+.key{
+     
+    margin : 10px ;
+     background-color: #EAE2E2;
+     width : 80px;
+     height : 30px;
+     border-radius: 10px;
+     text-align: center ;
+     display :flex;
+     flex-direction: row;
+    justify-content:center;
+    align-items : center;
+    padding-top : 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+    font-weight: 500;
+   
+   
+    
+    
+}
+.imgpart{
+     display: flex;
+     flex-direction: row;
+    
+}
+.time{
+     background-color: black;
+     width : 40px;
+    height  : 20px;
+   margin-left : -44px ;
+   margin-top: 130px;
+  
+    color :white;
+     display : flex ;
+     flex-direction: row;
+     justify-content: center;
+     align-items : center;
+}
+.key:hover{
+     background-color : #C0C0C0;
+}
+
+li:hover{
+    background-color: whitesmoke;
+}
+.overall-bar{
+    display : flex;
+    flex-direction: row ;
+
+}
+.sidebar{
+    width : 200px;
+    
+    position :fixed;
+    top : 80px;
+    max-height: calc(100vh - 60px); /* Set max height based on viewport height minus any top fixed elements */
+    overflow-y: auto; 
+    
+}
+.contentbar{
+     width : auto;
+    
+     display :flex;
+     flex-direction: row;
+     flex-wrap: wrap ;
+     margin-left : 200px;
+     position: static;
+     padding-top: 150px;
+     
+
+}
+.writer{
+     display : flex;
+     flex-direction: row;
+     
+}
+.card{
+     
+   
+    border-radius: 20px;
+    width : 300px;
+    height: 280px;
+    margin: 10px;
+
+}
+.img{
+    border-radius: 10px ;
+    width : 300px;
+    height: 160px;
+   
+    
+
+}
+.img:hover{
+     transform  :scale(1.1);
+     transition-duration: 1s;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.img3{
+    width : 40px ;
+    height : 40px; 
+    border-radius: 50%;
+    margin : 10px 10px 10px 10px ;
+
+}
+.writer{
+     display :flex;
+     flex-direction: row ;
+     width : 300px;
+}
+.heading{
+     margin-top : 10px;
+     display : flex;
+     flex-direction: row ;
+     margin-right : 10px;
+
+}
+
+
+.navbar{
+    position: fixed;
+    top :0px ;
+    left :0px ;
+    width : 100% ;
+    height : 50px;
+     display: flex;
+     background-color: white;
+     flex-direction: row ;
+     justify-content: space-between;
+     padding : 20px 20px 20px 20px ;
+     position:fixed;
+
+}
+.main-heading{
+     font-family : sans-serif;
+     font-size: 13px;
+}
+.searchingspace{
+       
+      
+}
+.logo-side{
+     width : 200px ;
+     display :flex;
+     flex-direction: row;
+     justify-content: center;
+    
+    
+     
+}
+.second-heading{
+     padding-right : 10px;
+     width : 20px;
+     height: 20px ;
+     font-size : 15px;
+}
+ .bi-three-dots-vertical{
+    margin : 0px 20px 0px 20px ;
+    font-size: 30px;
+ }
+.bi-youtube{
+    margin : 0px 20px 0px 20px ;
+    font-size: 30px;
+    color : red;
+}
+.youtube{
+    padding :5px 5px 5px 5px ;
+}
+.search-bar{
+    
+    width :300px ;
+    display : flex;
+    flex-direction: row ;
+    justify-content: space-between;
+
+    
+}
+.notification-zone{
+    width : 150px ;
+    margin : 10px 10px 10px 10px ;
+
+     display : flex ;
+     flex-direction: row ;
+     justify-content: space-between;
+     align-items: center;
+}
+.email-id{ 
+    width : 30px ;
+    height : 30px ;
+    display : flex ;
+    flex : row ;
+    justify-content: center;
+    align-items : center ;
+    background-color: #CA3F10;
+    border-radius: 50%;
+    margin-right :20px;
+  
+}
+.search-place{
+    border : 1px solid grey;
+     border-top-left-radius: 20px ;
+     border-bottom-left-radius: 20px;
+     width : 200px ;
+     height : 28px;
+     padding-left : 5px;
+}
+.cross{
+      border : 1px solid grey;
+      border-top-right-radius: 10px ;
+      border-bottom-right-radius: 10px ;
+      width : 20px ;
+     
+}
+.search-icon{
+      width : 50px;
+      height : 30px ;
+      border : 1px solid grey;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      display : flex;
+      flex-direction: row ;
+      justify-items: center ;
+      align-items: center;
+}
+.mic-icon{
+    width : 30px ;
+    height : 30px ;
+    border-radius: 50%;
+    padding : auto;
+    display : flex;
+    flex-direction: row ;
+    justify-items: center ;
+    align-items: center;
+    background-color: grey
+    ;
+}
+.bi-mic-fill{
+    margin : auto;
+}
+.bi-search{
+    margin : auto;
+}
+.search-search{
+     display: flex;
+     flex-direction: row;
+
+}
+
